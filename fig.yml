@@ -1,6 +1,6 @@
 web:
   build: .
-  command: dev_appserver.py go-personal/app --host=0.0.0.0 --admin_host=0.0.0.0 --skip_sdk_update_check
+  command: dev_appserver.py my-webapp/main-app --host=0.0.0.0 --admin_host=0.0.0.0 --skip_sdk_update_check
   ports:
    - "8080:8080"
    - "8000:8000"
