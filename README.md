@@ -10,3 +10,5 @@ You will need [Fig](http://www.fig.sh/install.html) and [Docker](https://docs.do
 3. `fig up`
 
 That's it! During the `fig build` step you should see Go, and Google Appengine download and install inside your docker container. Notice that the `Dockerfile` takes care of setting your `GOPATH` for you!
+
+You should now see your app engine web app live at `XXX:8080` where, `XXX` is your docker ip. 
